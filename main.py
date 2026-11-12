@@ -14,7 +14,7 @@ from PIL import Image # নতুন ইমেজ লাইব্রেরি
 from pyrogram import Client as PyroClient # ২ জিবি ফাইল সাপোর্ট করার জন্য এড করা হলো
 
 # --- কনফিগারেশন ---
-TOKEN = os.getenv("BOT_TOKEN", "")
+TOKEN = os.getenv("BOT_TOKEN", "9219855483:AAH9ZrxFejeC_j9X697I_UOGSlnneH1_bSs")
 MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://akash:akash@cluster0.etisrpx.mongodb.net/?appName=Cluster0")
 OWNER_ID = int(os.getenv("ADMIN_ID", "7525127704")) 
 APP_URL = os.getenv("APP_URL", "https://adaltbot.onrender.com/")
